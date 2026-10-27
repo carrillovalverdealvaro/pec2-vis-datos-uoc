@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="ba431dabec6c4cc5a130cda330a9186b" class="chart-container" style="width:100%; height:600px; "></div>
+    <script>
+        var chart_ba431dabec6c4cc5a130cda330a9186b = echarts.init(
+            document.getElementById('ba431dabec6c4cc5a130cda330a9186b'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_ba431dabec6c4cc5a130cda330a9186b = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "treemap",
+            "name": "% Energ\u00eda Total",
+            "data": [
+                {
+                    "name": "Renovable",
+                    "children": [
+                        {
+                            "name": "Hidr\u00e1ulica",
+                            "value": 11.4
+                        },
+                        {
+                            "name": "Hidroe\u00f3lica",
+                            "value": 0.01
+                        },
+                        {
+                            "name": "E\u00f3lica",
+                            "value": 19.68
+                        },
+                        {
+                            "name": "Solar fotovoltaica",
+                            "value": 22.96
+                        },
+                        {
+                            "name": "Solar t\u00e9rmica",
+                            "value": 1.71
+                        },
+                        {
+                            "name": "Otras renovables",
+                            "value": 1.33
+                        },
+                        {
+                            "name": "Residuos renovables",
+                            "value": 0.23
+                        }
+                    ]
+                },
+                {
+                    "name": "No renovable",
+                    "children": [
+                        {
+                            "name": "Nuclear",
+                            "value": 18.72
+                        },
+                        {
+                            "name": "Carb\u00f3n",
+                            "value": 0.12
+                        },
+                        {
+                            "name": "Fuel + Gas",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Motores di\u00e9sel",
+                            "value": 0.92
+                        },
+                        {
+                            "name": "Turbina de gas",
+                            "value": 0.31
+                        },
+                        {
+                            "name": "Turbina de vapor",
+                            "value": 1.38
+                        },
+                        {
+                            "name": "Ciclo combinado",
+                            "value": 16.77
+                        },
+                        {
+                            "name": "Cogeneraci\u00f3n",
+                            "value": 4.15
+                        },
+                        {
+                            "name": "Residuos no renovables",
+                            "value": 0.32
+                        }
+                    ]
+                }
+            ],
+            "width": "80%",
+            "height": "80%",
+            "label": {
+                "position": "inside",
+                "fontSize": 13,
+                "formatter": "{b} ({c}%)"
+            },
+            "upperLabel": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "leafDepth": 1,
+            "drillDownIcon": "\u25b6",
+            "roam": true,
+            "nodeClick": "zoomToNode",
+            "zoomToNodeRatio": 0.1024,
+            "colorMappingBy": "index",
+            "visibleMin": 10
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "% Energ\u00eda Total"
+            ],
+            "selected": {},
+            "show": false
+        }
+    ],
+    "tooltip": {
+        "trigger": "item",
+        "left": "left"
+    },
+    "color": [
+        "#7bc98f",
+        "#e07a7a"
+    ],
+    "title": {
+        "text": "% de electricidad generada por tipo de energ\u00eda (2026)",
+        "left": "center"
+    }
+};
+        chart_ba431dabec6c4cc5a130cda330a9186b.setOption(option_ba431dabec6c4cc5a130cda330a9186b);
+            window.addEventListener('resize', function(){
+                chart_ba431dabec6c4cc5a130cda330a9186b.resize();
+            })
+    </script>
+</body>
+</html>

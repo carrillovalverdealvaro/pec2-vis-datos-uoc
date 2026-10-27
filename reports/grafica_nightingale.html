@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="20bdd1fba4bf497991958fcd4ba20208" class="chart-container" style="width:1005; height:650px; "></div>
+    <script>
+        var chart_20bdd1fba4bf497991958fcd4ba20208 = echarts.init(
+            document.getElementById('20bdd1fba4bf497991958fcd4ba20208'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_20bdd1fba4bf497991958fcd4ba20208 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "No renovable",
+            "coordinateSystem": "polar",
+            "symbolSize": 4,
+            "data": [
+                6058.144155,
+                3953.500195,
+                4574.078305,
+                4383.872615,
+                4997.022525,
+                5603.91593,
+                7472.995629999999,
+                7181.57273,
+                6926.9921300000005
+            ],
+            "stack": "total",
+            "label": {
+                "show": false
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        {
+            "type": "bar",
+            "name": "Nuclear",
+            "coordinateSystem": "polar",
+            "symbolSize": 4,
+            "data": [
+                5238.88338,
+                4031.60578,
+                3921.09699,
+                3891.82999,
+                3758.566,
+                4457.56388,
+                4966.6541,
+                4772.11515,
+                4904.92554
+            ],
+            "stack": "total",
+            "label": {
+                "show": false
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        {
+            "type": "bar",
+            "name": "Renovable",
+            "coordinateSystem": "polar",
+            "symbolSize": 4,
+            "data": [
+                14230.320205,
+                13786.931505,
+                14572.795335,
+                12106.289325,
+                13125.792505,
+                14170.33092,
+                14706.09974,
+                13402.705049999999,
+                12220.90445
+            ],
+            "stack": "total",
+            "label": {
+                "show": false
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "No renovable",
+                "Nuclear",
+                "Renovable"
+            ],
+            "selected": {},
+            "left": "left",
+            "orient": "vertical"
+        }
+    ],
+    "tooltip": {
+        "trigger": "axis"
+    },
+    "radiusAxis": {
+        "min": 0
+    },
+    "angleAxis": {
+        "type": "category",
+        "data": [
+            "ene/26",
+            "feb/26",
+            "mar/26",
+            "abr/26",
+            "may/26",
+            "jun/26",
+            "jul/26",
+            "ago/26",
+            "sep/26"
+        ],
+        "clockwise": true
+    },
+    "polar": {
+        "center": [
+            "50%",
+            "50%"
+        ],
+        "zlevel": 0,
+        "z": 2
+    },
+    "color": [
+        "#e57373",
+        "#f4b183",
+        "#66bb6a"
+    ],
+    "title": {
+        "text": "Generaci\u00f3n (GWh) al mes por tipo de energ\u00eda",
+        "left": "center"
+    }
+};
+        chart_20bdd1fba4bf497991958fcd4ba20208.setOption(option_20bdd1fba4bf497991958fcd4ba20208);
+    </script>
+</body>
+</html>

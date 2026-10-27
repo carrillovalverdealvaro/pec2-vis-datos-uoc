@@ -1,0 +1,20 @@
+[project]
+name = "vis-datos-pec-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastexcel>=0.21.0",
+    "polars>=2.0.0",
+    "pyarrow>=26.0.0",
+    "pyecharts>=2.1.0",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "dotenv>=0.9.9",
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+]
